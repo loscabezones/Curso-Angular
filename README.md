@@ -14,3 +14,9 @@ Curso Angular
  ####  Contenido añadido ####
  
  - Añadido mensaje Hola Mundo en el componenete principal
+ - Añadido componentes header, body y footer
+ - muestras de ngIf y ngFor
+ 
+ ### 02-spa ###
+ 
+ * proyecto de inicio limpio para crear una pagina Sinle Page, creado con Angular Cli 7.0
