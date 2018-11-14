@@ -17,6 +17,10 @@ Curso Angular
  - Añadido componentes header, body y footer
  - muestras de ngIf y ngFor
  
+ ### APLICACION-2 ###
+ 
+ * * *
+ 
  ### 02-spa ###
  
  * proyecto de inicio limpio para crear una pagina Sinle Page, creado con Angular Cli 7.0
