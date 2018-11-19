@@ -58,7 +58,7 @@ export class HeroesService {
       ];  
 
     constructor(){
-        console.log('listo para usarse')
+
     }
 
     getHeroes():Heroe[]{
