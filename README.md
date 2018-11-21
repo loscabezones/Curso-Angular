@@ -30,3 +30,8 @@ Curso Angular
  - Añadido Componente about, heroes, home, y navbar
  - añadido archivo de routing
  - configurado rutas y llamada a las rutas en el navbar
+ - creación servicio heroes.service
+ - cambio de rutas a trabes de botones.
+ - creacion de componente heroe y desarollo devisualicacion de contenido
+ - creacion de buscador
+ - separacion componente heroe-tarjeta y llamarla en el componente Heroes y buscador
