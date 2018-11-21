@@ -35,3 +35,19 @@ Curso Angular
  - creacion de componente heroe y desarollo devisualicacion de contenido
  - creacion de buscador
  - separacion componente heroe-tarjeta y llamarla en el componente Heroes y buscador
+ 
+  ### APLICACION-3 ###
+ 
+ * * *
+ 
+ ### 03-pipes ###
+ 
+ * proyecto de inicio limpio para crear ejemplos de pipe, creado con Angular Cli 7.0
+
+ ####  Contenido añadido ####
+ 
+ - tabla con ejemplos de pipe
+ - pipe: uppercase
+ - pipe: lowercase
+ - pipe: slice
+
