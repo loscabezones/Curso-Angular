@@ -54,4 +54,5 @@ Curso Angular
  - pipe: percent
  - pipe: currency
  - pipe: number
+ - pipe: json
 
