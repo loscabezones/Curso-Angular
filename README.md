@@ -55,4 +55,6 @@ Curso Angular
  - pipe: currency
  - pipe: number
  - pipe: json
+ - pipe: async
+ - pipe: date
 
