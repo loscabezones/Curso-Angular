@@ -46,7 +46,8 @@ Curso Angular
 
  ####  Contenido añadido ####
  
- - tabla con ejemplos de pipe
+ ##### tabla con ejemplos de pipe de ANGULAR
+ 
  - pipe: uppercase
  - pipe: lowercase
  - pipe: slice
@@ -57,4 +58,8 @@ Curso Angular
  - pipe: json
  - pipe: async
  - pipe: date
+ 
+ ##### Pipes creados 
+ 
+ - pipe: capitalizado - Pipe que recibe un string y pone en mayuscula la primera letra de cada palabra.
 
