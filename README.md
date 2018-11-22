@@ -61,5 +61,5 @@ Curso Angular
  
  ##### Pipes creados 
  
- - pipe: capitalizado - Pipe que recibe un string y pone en mayuscula la primera letra de cada palabra.
+ - pipe: capitalizado // Pipe que recibe un string y pone en mayuscula la primera letra de cada palabra. //
 
