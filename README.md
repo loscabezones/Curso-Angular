@@ -50,4 +50,6 @@ Curso Angular
  - pipe: uppercase
  - pipe: lowercase
  - pipe: slice
+ - pipe: number
+ - pipe: percent
 
