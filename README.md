@@ -52,4 +52,6 @@ Curso Angular
  - pipe: slice
  - pipe: number
  - pipe: percent
+ - pipe: currency
+ - pipe: number
 
