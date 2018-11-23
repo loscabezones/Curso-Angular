@@ -108,22 +108,30 @@
         <td> {{ nombre2 | capitalizado }}</td>
       </tr>
       <tr>
-          <td> {{ nombre2 }} </td>
-          <td> capitalizado:false </td>
-          <td> {{ nombre2 | capitalizado:false }}</td>
-        </tr>
+        <td> {{ nombre2 }} </td>
+        <td> capitalizado:false </td>
+        <td> {{ nombre2 | capitalizado:false }}</td>
+      </tr>
     </tbody>
   </table>
+
+  <hr>
 
   <h4>Slice</h4>
   <ul>
     <li *ngFor="let item of array | slice:5:20">{{item}}</li>
   </ul>
 
+  <hr>
+
   <h4>JSON</h4>
   <pre>
    {{ heroe | json }}
  </pre>
+
+  <h4>YOUTUBE <small>Video</small></h4>
+  <hr>
+  <iframe width="560" height="315" [src]="video | domseguro:'https://www.youtube.com/embed/'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
 
