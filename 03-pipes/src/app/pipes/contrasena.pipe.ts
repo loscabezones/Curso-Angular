@@ -5,9 +5,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class ContrasenaPipe implements PipeTransform {
 
-  transform(value: any, show:boolean=true): any {
+  transform(value: any, show:boolean=true):string {
 
-    if (show === true) {
+    if (show) {
       value = value.replace(/./g, "*");
     } else {
       value = value;
