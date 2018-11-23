@@ -7,11 +7,8 @@ export class ContrasenaPipe implements PipeTransform {
 
   transform(value: any, show:boolean=true):string {
 
-    if (show) {
-      value = value.replace(/./g, "*");
-    } else {
-      value = value;
-    }
+    show ? value = value.replace(/./g, "*") : value = value;
+    
     return value;
   }
 
