@@ -64,4 +64,12 @@ Curso Angular
  ~~~
  - pipe: capitalizado // Pipe que recibe un string y pone en mayuscula la primera letra de cada palabra. //
  ~~~
+ 
+ ~~~
+ - pipe: contrasena // Pipe que recibe un string y pone todos los caracteres con asteriscos si recibe un parametro en true //
+ ~~~
+ 
+ ~~~
+ - pipe: domsegurp // Pipe que recibe una url y la securiza para poder reporducirla en la web //
+ ~~~
 
