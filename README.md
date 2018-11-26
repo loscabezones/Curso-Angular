@@ -78,7 +78,7 @@ Curso Angular
  
  * * *
  
- ### 04-spitify ###
+ ### 04-spotiapp ###
  
  * proyecto utilizando la api de spotify
 
