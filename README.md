@@ -66,7 +66,7 @@ Curso Angular
  ~~~
  
  ~~~
- - pipe: contrasena // Pipe que recibe un string y pone todos los caracteres con asteriscos si recibe un parametro en true //
+ - pipe: contrasena // Pipe que recibe un string y pone todos los caracteres con asteriscos //
  ~~~
  
  ~~~
