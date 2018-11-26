@@ -72,4 +72,16 @@ Curso Angular
  ~~~
  - pipe: domsegurp // Pipe que recibe una url y la securiza para poder reporducirla en la web //
  ~~~
+ 
+ 
+ ### APLICACION-4 ###
+ 
+ * * *
+ 
+ ### 04-spitify ###
+ 
+ * proyecto utilizando la api de spotify
+
+ ####  Contenido añadido ####
+ 
 
