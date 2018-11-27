@@ -18,6 +18,9 @@ import { ROUTES } from './app.routes';
 //importar servicios
 import { SpotifyService } from './services/spotify.service';
 
+//importar Pipes
+import { NoimagePipe } from './pipes/noimage.pipe';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,8 @@ import { SpotifyService } from './services/spotify.service';
     HomeComponent,
     SearchComponent,
     ArtistaComponent,
-    NavbarComponent
+    NavbarComponent,
+    NoimagePipe
   ],
   imports: [
     BrowserModule,
