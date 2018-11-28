@@ -22,9 +22,8 @@ export class SearchComponent implements OnInit {
     this.loading = true;
 
     if (!termino) { termino = " " }
-    this._spotifyService.getArtista(termino).subscribe(
+    this._spotifyService.getArtistas(termino).subscribe(
       data => {
-        console.log(data);
         this.artistas = data;
         if (data.length === 0) { this.mensaje = "No hay ninguna coincidencia con su busqueda actual" } else { this.mensaje = ""; }
         if (termino === " "){this.mensaje = "";}
