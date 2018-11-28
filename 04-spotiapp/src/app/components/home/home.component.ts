@@ -11,12 +11,16 @@ export class HomeComponent implements OnInit {
 
 
   nuevasCanciones:any [] = [];
+  loading:boolean
 
   constructor( private _SpotifyService:SpotifyService) {
 
+    this.loading = true;
+
     this._SpotifyService.getNewReleases().subscribe((data:any)=>{
-      this.nuevasCanciones = data;
-    });
+      this.nuevasCanciones = data;},
+      err=>{},
+      ()=>{this.loading = false;});
 
 
    }
