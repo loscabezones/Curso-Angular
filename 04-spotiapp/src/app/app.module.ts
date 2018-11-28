@@ -22,6 +22,7 @@ import { SpotifyService } from './services/spotify.service';
 
 //importar Pipes
 import { NoimagePipe } from './pipes/noimage.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 
 @NgModule({
@@ -32,9 +33,10 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     SearchComponent,
     ArtistaComponent,
     NavbarComponent,
-    NoimagePipe,
     TarjetasComponent,
-    LoadingComponent
+    LoadingComponent,
+    NoimagePipe,
+    DomseguroPipe
   ],
   //rutas y http
   imports: [
