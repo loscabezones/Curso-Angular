@@ -124,11 +124,12 @@ Curso Angular
     
     y en el body con la opcion marcada: "x-www-form-urlencoded" introducirle 3 elmentos:
       
-      
+      ~~~
     * KEY: grant_type,   VALUE: client_credentials
     * KEY: client_id,   VALUE: <nuestro Client ID>
     * KEY: client_secret,   VALUE: <nuestro Client Secret>
- 
+      ~~~
+      
     y nos devolvera una respuesta como la siguiente: que contendra nuestro token, PD: solo durara 1 hora.
     
     ~~~
