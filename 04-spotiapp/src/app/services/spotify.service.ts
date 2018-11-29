@@ -7,12 +7,32 @@ import { map } from 'rxjs/operators'
 })
 export class SpotifyService {
 
+  token = "Bearer BQDTxE8SpGu9WlokFeA5KPATXKIbd1OgBHoA7VdZY7io9SyW2Q4kHkUKv1C2jVeZXzrHjsCKCJC00b3ZtdI";
+
   constructor(private http: HttpClient) { }
+
+  getNewToken(){
+
+    const clientId = "80010743b6704fbbaa00df329e91ed49";
+    const clientSecret = "27f417b867034a02b56a0465e9590c06";
+
+    return  this.http.get(`https://spotify-get-token.herokuapp.com/spotify/${clientId}/${clientSecret}`);
+
+  }
+
+  getChangeToken( toquen?:string ){
+
+    if (toquen){
+      this.token = toquen;
+    }  
+    console.log("el toquen cambiado :"+this.token)
+
+  }
 
   getQuery(query: string) {
 
     const headers = new HttpHeaders({
-      'Authorization': 'Bearer BQDoeEmap6j8SzshIK_AQqWDELB32raSBjKdEM0w4ycT5GqhmvWvs2e53UoQyEdptgF5MMRzHASucCCRSv8'
+      'Authorization': `${this.token}`
     });
     const url = `https://api.spotify.com/v1/${query}`;
     return this.http.get(`${url}`, { headers });
