@@ -122,7 +122,7 @@ Curso Angular
     Una vez con nuestras claves mediante por ejemplo post man devemos realizar una petcion POST a:
     https://accounts.spotify.com/api/token
     
-    y en el body con la opcion marcada: "x-www-form-urlencoded" introducirle 3 elmentos:
+    y en el body con la opcion marcada: "x-www-form-urlencoded" introducirle 3 elementos:
       
       ~~~
     * KEY: grant_type,   VALUE: client_credentials
