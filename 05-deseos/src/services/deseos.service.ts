@@ -16,8 +16,6 @@ export class DeseosService {
         const lista2 = new Lista('Héroes a vencer');
 
         this.listas.push(lista1, lista2);
-
-        console.log(this.listas);
         
 
     }
