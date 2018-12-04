@@ -38,4 +38,8 @@ export class AgregarPage {
         item.completado = !item.completado;
     }
 
+    borrar( index:number ){
+        this.lista.items.splice( index, 1 );
+    }
+
 }
